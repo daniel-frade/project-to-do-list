@@ -35,13 +35,11 @@ export function TaskProvider ({ children }) {
     resetTasks
   };
 
-  return (
-    <TaskContext.Provider value={ contextValue }>
-      { children }
-    </TaskContext.Provider>
-  );
-}
+//   return (
+//     <TaskContext.Provider value={ contextValue }>
+//       { children }
+//     </TaskContext.Provider>
+//   );
+// }
 
-export default TaskContext;
-
-//commit
+// export default TaskContext;
